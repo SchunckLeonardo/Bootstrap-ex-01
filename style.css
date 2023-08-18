@@ -82,3 +82,29 @@ body {
 .card-icon p {
     color: gray;
 }
+
+.bg-pexels {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(./assets/img/pexels-cottonbro-studio-3585091.jpg);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.bg-pexels-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.text-cellphone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 70%;
+    gap: 25px;
+}
