@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Crimson+Text:wght@400;600&display=swap');
+
+body {
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Crimson Text', serif;
+}
+
+.main-container {
+    padding: 50px 0;
+}
+
 .navbar .navbar-brand {
     color: #000;
     font-weight: 700;
@@ -11,4 +22,26 @@
 
 .navbar .navbar-toggler {
     box-shadow: none;
+}
+
+.main-title {
+    font-size: 5.5em;
+    font-weight: 600;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.badges-icons {
+    gap: 15px;
+}
+
+.main-paragraphy {
+    color: gray;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.logo-brand-app {
+    width: 30%;
+    height: 100%;
 }
